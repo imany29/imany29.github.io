@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Iman's HCDE 439 Physical Computing Page!</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>Assignment 2: Fade!</h1>
+            <p>
+            <img src="fade.gif" width=400></a>
+            </p>
+            <p>
+            Here is all the documentation for assignment 2!
+            </p>
+        </div>
+            <h2>Schematic</h2>
+            <p>
+                <img src="Schematic.jpg" width=400></a>
+            <p>
+                I chose to use 220 ohm resistors because it seemed to work best with the LED lights. The white, red, and blue each used 220 ohm resistors. 
+        </div>
+            <h2>Code Snippet</h2>
+            <p>
+                <img src="a2code.jpg" width=400></a>
+        
+    </body>
+</html>
