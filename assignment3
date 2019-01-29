@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Iman's HCDE 439 Physical Computing Page!</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+        <div class="header">
+            <h1>Assignment 3: Input Output!</h1>
+            <p>
+            When the room is dark, the bright white LED will turn on! This serves as a self-created night light!
+            <p>
+            <img src="inputoutput.gif" width=400></a>
+            </p>
+            </p>
+        </div>
+            <h2>Schematic.</h2>
+            <p>
+                <img src="a2schematic.jpg" width=400></a>
+            <p>
+                I chose to use 1k ohm resistors because it was the safest  with the LED lights. While initially using a 330 ohm resistor my LED light burned out, so I took the advice given in class when using red LED lights, and chose to use a lower ohm resistor (1k). 
+            <p>
+                V = 5 - 1.8(V drop) = 3.2v
+                3.2 = 0.02 x R(ohms)
+                R = 3.2/0.02 = 160(ohms)
+        </div>
+            <h2>Code Snippet!</h2>
+            <p>
+                <img src="a2code.jpg" width=600></a>
+        
+    </body>
+</html>
