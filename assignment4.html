@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Iman's HCDE 439 Physical Computing Page!</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+        <div class="header">
+            <h1>Assignment 4: High(er) Voltage and Transistors!</h1>
+            <p>
+            By placing my finger on the photoresistor, the LED strip will go from dim to bright!
+            <p>
+            <img src="higher.gif" width=400></a>
+            </p>
+            </p>
+        </div>
+            <h2>Schematic.</h2>
+            <p>
+                <img src="a4schematic.jpg" width=400></a> <img src="a4schematic1.jpg" width=400></a> 
+            <p>
+               Through the calculation below, it shows how much current will flow through the transistor. As I only use 63 LEDs from the LED strip, it uses a smaller amount of watts compared to the 18 watts that typically go through 300 LEDs. 
+
+               I chose to use 10k resistor for safety purposes. As I was using power from both the outlet, and 5v on the arduino, 10k was the safest option to ensure my lights did not burn out. 
+            <p>
+                (300 LEDs) / (18 watts) = (63 LEDs) / (i watts)
+                </p>
+                i = 3.78 watts
+                </p>
+                </p>
+                V = 5 - 1.8(V drop) = 3.2v
+                3.2 = 0.02 x R(ohms)
+                R = 3.2/0.02 = 160(ohms)
+        </div>
+            <h2>Code Snippet!</h2>
+            <p>
+                <img src="a4code.jpg" width=600></a>
+        
+    </body>
+</html>
